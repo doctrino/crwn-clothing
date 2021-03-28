@@ -29,10 +29,10 @@ export const signOutStart = () => ({
 })
 
 export const signOutSuccess = () => ({
-    type: UserActionType.GOOGLE_SIGN_IN_SUCCESS
+    type: UserActionType.SIGN_OUT_SUCCESS
 })
 
 export const signOutFailure = (error) => ({
-    type: UserActionType.GOOGLE_SIGN_IN_FAILURE,
+    type: UserActionType.SIGN_OUT_FAILURE,
     payload: error
 })
