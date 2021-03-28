@@ -1,5 +1,4 @@
 import UserActionType from "./user.types";
-import {ExpirationPlugin} from "workbox-expiration";
 
 export const setCurrentUser = user => ({
         type: UserActionType.SET_CURRENT_USER,
